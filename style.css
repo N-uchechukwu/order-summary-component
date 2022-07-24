@@ -1,0 +1,149 @@
+* {
+    font-family: 'Red Hat Display', Helvetica, sans-serif;
+    
+}
+
+body{
+    background-image: url(images/pattern-background-desktop.svg);
+    margin: 0;
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-color: hsl(225, 100%, 94%);
+    
+}
+.card{
+    width: 400px;
+    margin: 10px auto 10px auto;
+    display: flex;
+    flex-direction: column;
+    background: #fff;
+    border-radius: 20px;
+
+
+}
+.hero-image{
+    border-radius: 20px 20px 0 0;
+    width: 100%;
+}
+
+h1{
+    color: hsl(223, 47%, 23%);
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 7px;
+
+}
+.summary{
+    text-align: center;
+    font-size: 1rem;
+    padding: 0 30px;
+    color:hsl(224, 23%, 55%);
+    margin-bottom:20px;
+}
+.subscription-plan{
+    margin-right: 30px
+
+}
+
+.payment-section{
+    display: flex;
+    align-items: center;
+    padding: 0 20px;
+    flex-direction: row;
+    background: #fafafa;
+    border-radius: 20px;
+    margin: 10px 30px;
+
+
+}
+.music-icon{
+    height:40px;
+}
+.plan-pricing{
+    line-height: normal;
+    margin-right: 90px;
+    margin-bottom: 5px;
+
+}
+.plan-type{
+    font-weight: 900;
+    margin-bottom:-10px;
+    font-size:0.8rem;
+   
+}
+.price{
+    font-size: 12px;
+    font-weight: 900;
+    color: darkgrey
+    
+}
+.change-button{
+    display: flex;
+    font-size: 12px;
+    
+}
+
+.change-button a:hover{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+}
+.buttons{
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+
+}
+.call-to-action{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: Georgia, serif;
+    background-color: blue;
+    color: #fff;
+    transition: .2s;
+    
+
+}
+.call-to-action:hover{
+    background-color:hsl(224, 23%, 55%);
+    cursor:pointer;
+}
+
+
+.secondary-button{
+    padding: 15px;
+    border: none;
+    border-radius: 10px;
+    font-size: 17px;
+    font-family: Georgia, serif;
+    margin-top: 10px;
+    background-color: transparent;
+    color: gray;
+    cursor: pointer;margin-bottom: 20px
+}
+.secondary-button:hover{
+    color: black
+}
+
+.attribution {
+     font-size: 11px;
+      text-align: center;
+    
+}
+.attribution a {
+     color: hsl(228, 45%, 44%);
+}
+
+@media screen and (max-width: 450px) {
+    body {
+        background-image: url(images/pattern-background-mobile.svg);
+      
+    }
+
+    .card {
+        width: 70vw;
+        
+    }
+}
+    
